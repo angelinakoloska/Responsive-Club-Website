@@ -101,7 +101,7 @@ nav a:hover {
 }
 
 #about-image {
-    background-image: url('/assets/img/about_img.jpg');
+    background-image: url('../img/about_img.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +127,7 @@ nav a:hover {
 }
 
 #work-image {
-    background-image: url('/assets/img/work_img.jpg');
+    background-image: url('../img/work_img.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
