@@ -179,23 +179,25 @@ footer {
     background-color: red;
     color: #fff;
     text-align: center;
-    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+
 }
 
 footer h3 {
-    font-size: 1.5rem;
+    font-size: 1.15rem;
 }
 
 footer #socials {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+    font-size: 1.15rem;
     
 }
 
 footer #creator {
-    padding-top: 0.8rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 @media only screen and (min-width: 700px) {
@@ -253,7 +255,20 @@ footer #creator {
         font-size: 1.15rem;
     }
 
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     footer #socials {
-        font-size: 1.3rem;
+        font-size: 1.15rem;
+    }
+
+    footer p {
+        font-size: 1rem;
     }
 }
