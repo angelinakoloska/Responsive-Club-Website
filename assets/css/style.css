@@ -100,7 +100,7 @@ nav a:hover {
 }
 
 #about-image {
-    background-image: url('../img/about_img.jpg');
+    background-image: url('../img/about_img.avif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,7 +126,7 @@ nav a:hover {
 }
 
 #work-image {
-    background-image: url('../img/work_img.jpg');
+    background-image: url('../img/work_img.avif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
